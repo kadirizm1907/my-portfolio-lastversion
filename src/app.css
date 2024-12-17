@@ -1,0 +1,288 @@
+#navbarSupportedContent {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(35, 35, 34) 5%,
+    rgba(0, 0, 0, 1) 32%,
+    rgba(64, 73, 138, 1) 94%
+  );
+}
+.kadir {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgb(37, 37, 36) 5%,
+    rgba(0, 0, 0, 1) 32%,
+    rgba(64, 73, 138, 1) 94%
+  );
+}
+body {
+  /* margin: 20px; */
+  background-image: radial-gradient(
+    circle,
+    #8fb1af,
+    #70a6ad,
+    #5299b0,
+    #3a8bb3,
+    #347bb4,
+    #2e80bd,
+    #2685c7,
+    #198ad0,
+    #00a8e2,
+    #00c4ed,
+    #06e0f1,
+    #5ffbf1
+  );
+}
+.nav-item {
+  background: #000000;
+  background: radial-gradient(
+    circle farthest-side at center center,
+    #000000 0%,
+    #d0d26d 0%,
+    #4b78ff 60%,
+    #49c3de 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+}
+.nav-item-logout {
+  color: #f8f8f8;
+  font-weight: bold;
+}
+.gitUrl a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #9b5e5e;
+}
+.gitUrl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-item:hover {
+  opacity: 0.4;
+  transform: translateY(5%);
+}
+#footer-items a:hover {
+  transform: translateY(5%);
+}
+.about-text {
+  color: #121515;
+  font-weight: bold;
+  margin-top: 2rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px #121515;
+  position: relative;
+  padding: 13px;
+  background-color: cadetblue;
+  opacity: 0.8;
+}
+.about-text a {
+  color: yellowgreen;
+}
+#images {
+  width: 70vw;
+  height: 70vh;
+}
+#splash {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #ffffffd0;
+  border: 15px solid transparent;
+  padding: 4px;
+  border-image-source: url("https://www.w3schools.com/cssref/border.png");
+  border-image-repeat: stretch;
+  border-image-slice: 10;
+  border-image-width: 3px;
+  border-image-outset: 5px 5px 5px 5px;
+}
+#splash2 {
+  cursor: pointer;
+  font-size: 2rem;
+  font-size: 1.2rem;
+  background-color: #ffffffd0;
+  border: 15px solid transparent;
+  padding: 4px;
+  border-image-source: url("https://www.w3schools.com/cssref/border.png");
+  border-image-repeat: stretch;
+  border-image-slice: 10;
+  border-image-width: 3px;
+  border-image-outset: 5px 5px 5px 5px;
+}
+#splash3 {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #ffffffd0;
+  border: 15px solid transparent;
+  padding: 4px;
+  border-image-source: url("https://www.w3schools.com/cssref/border.png");
+  border-image-repeat: stretch;
+  border-image-slice: 10;
+  border-image-width: 3px;
+  border-image-outset: 5px 5px 5px 5px;
+}
+#cardPR {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+#textPR {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 80%);
+}
+.Error {
+  animation: beat 0.7s infinite alternate;
+  transform-origin: center;
+}
+@keyframes beat {
+  to {
+    transform: scale(0.9);
+  }
+}
+/* Log in styling here  */
+.loginDiv {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  height: auto;
+  width: calc(100% - 20px);
+  max-width: 475px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  gap: 8px;
+}
+
+.headerSpan {
+  width: 6px;
+  height: 39px;
+  background-color: #facc15;
+}
+
+.headerTitle {
+  color: wheat;
+  border-radius: 15px;
+  background-color: #2685c7;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 640px) {
+  .headerTitle {
+    font-size: 32px;
+  }
+}
+.subHeader {
+  margin: 8px 0;
+}
+
+.subHeader h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.subHeader p {
+  color: wheat;
+  border-radius: 15px;
+  background-color: #2685c7;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 4px;
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-family: "Montserrat", sans-serif;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.label:hover::after {
+  content: "admin@aa.com";
+  color: black;
+  padding-left: 12px;
+  text-decoration: underline;
+}
+
+.input {
+  height: 44px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+.button {
+  background-color: #2563eb;
+  height: 44px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.resetLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.resetText {
+  font-family: "Montserrat", sans-serif;
+  color: #9ca3af;
+}
+
+.resetLink a {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 4px;
+}
